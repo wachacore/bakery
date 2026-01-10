@@ -1,0 +1,13 @@
+/* 1070px */
+
+@media (max-width: 1070px) {
+    .section-description__icon-box {
+        height: 22rem;
+    }
+
+    .section-description__title {
+        font-size: 8.0rem;
+    }
+}
+
+/* 850px */
