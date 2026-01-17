@@ -90,7 +90,7 @@ nav {
     padding: 1.7rem 0 0 2.8rem;
 }
 
-.section-image__title {
+.section-image__title, .block-adaptive__title {
     font-size: 3.6rem;
     margin-bottom: 0.9rem;
     font-family: Philosopher-Regular;
@@ -187,11 +187,24 @@ a:hover {
 }
 
 .logo:active {
-    rotate: 360deg;
+    rotate: 180deg;
 }
 
 .section-image__block:active {
     background: linear-gradient(180deg,
             rgba(244, 213, 178, 1) 0%,
             rgba(234, 156, 65, 1) 100%);
+}
+
+.block-adaptive {
+    display: none;
+    text-align: center;
+    width: 90%;
+    border: .2rem dashed;
+    color: #f15b40;
+    margin: 0 auto 2 rem auto;
+}
+
+.block-adaptive__text [open] {
+    padding-bottom: 2rem;
 }

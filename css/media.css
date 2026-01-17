@@ -11,3 +11,27 @@
 }
 
 /* 850px */
+
+
+@media (max-width: 860px) {
+
+    .section-description__icon-box {
+        height: 18rem;
+    }
+
+    .section-description__title {
+        font-size: 6rem;
+    }
+
+    .section-image__block {
+        display: none;
+    }
+
+    .block-adaptive {
+        display: block;
+    }
+
+
+}
+
+/* 620px */
