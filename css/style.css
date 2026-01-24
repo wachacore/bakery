@@ -202,9 +202,21 @@ a:hover {
     width: 90%;
     border: .2rem dashed;
     color: #f15b40;
-    margin: 0 auto 2 rem auto;
+    margin: 0 auto 4 rem auto;
 }
 
 .block-adaptive__text [open] {
     padding-bottom: 2rem;
+}
+
+.block-adaptive__title::marker {
+    content: none;
+}
+
+.block-adaptive__title {
+    cursor: help;
+}
+
+.block-adaptive__title::hover {
+    color: #f15b40;
 }
