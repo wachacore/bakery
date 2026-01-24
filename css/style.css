@@ -200,9 +200,8 @@ a:hover {
     display: none;
     text-align: center;
     width: 90%;
-    border: .2rem dashed;
-    color: #f15b40;
-    margin: 0 auto 4 rem auto;
+    border: .2rem dashed #f15b40;
+    margin: 0 auto 4rem auto;
 }
 
 .block-adaptive__text [open] {
