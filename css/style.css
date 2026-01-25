@@ -213,9 +213,10 @@ a:hover {
 }
 
 .block-adaptive__title {
-    cursor: pointer;
+    cursor: help;
 }
 
 .block-adaptive__title:hover {
     color: #f15b40;
+
 }
